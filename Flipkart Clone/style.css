@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.navbar{
+    height: 70px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+/* Search Bar */
+.search{
+    height: 40px;
+    display: flex;
+}
+#search-logo{
+    height: 40px;
+    width: 44px;
+    background-color: rgba(189, 229, 244,0.5);
+    color: rgba(0,0,0,0.5);
+    font-size: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    height: 40px;
+    width: 710px;
+    background-color: rgba(189, 229, 244,0.5);
+    font-size: 17px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+input:focus{
+    outline: none;
+}
+input::placeholder{
+    color: rgba(0,0,0,0.7);
+}
+
+/* Login Menu */
+.login{
+    color: black;
+    font-size: 17px;
+    padding: 10px 10px;
+}
+.login span{
+    padding-left: 10px;
+}
+.login:hover{
+    background-color: rgb(33, 33, 216);
+    border-radius: 10px;
+    color: white;
+}
+
+/* Cart Menu */
+.cart{
+    color: black;
+    font-size: 17px;
+}
+.cart span{
+    padding-left: 10px;
+}
+
+/* Seller Menu */
+.seller{
+    color: black;
+    font-size: 17px;
+}
+.seller span{
+    padding-left: 10px;
+}
+
+/* More Option Menu */
+.more{
+    height: 40px;
+    width: 40px;
+    color: black;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 0.5px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.more:hover{
+    border: 0.5px solid rgb(233, 229, 229);
+}
+
+/****** Main Content ******/
+.container{
+    height:200vh;
+    background-color: rgb(204, 215, 219);
+}
+/* Category Menu */
+.category{
+    height:130px;
+    background-color: white;
+    margin: 10px;  /** Probmem Occured **/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.category a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.box-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-icon img{
+   width: 64px;
+}
+.box-icon span{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* Slider Menu */
+.slider{
+    margin: 10px;
+    height: 265px;
+    overflow: hidden;
+}
+
+    
+  

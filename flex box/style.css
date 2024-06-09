@@ -1,0 +1,28 @@
+ul {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+li{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#outer{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inner{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    
+}

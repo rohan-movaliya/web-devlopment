@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Heading */
+.heading{
+    height: 60px;
+    background-color: black;
+    color: white;
+    line-height: 60px;
+}
+
+/* Choice Menu */
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.choice{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choice:hover{
+    background-color:black;
+    cursor: pointer;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Score Bar */
+.score-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+#comp,#you{
+    font-size: 50px;
+}
+
+/* Play Button */
+.msg-container{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 10px;
+}

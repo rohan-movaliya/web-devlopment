@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    position: relative;
+    width: 206px;
+    height: 190px;
+    margin: 0px auto;
+    margin-top:100px;
+}
+.square1{
+    width:100px;
+    height:100px;
+    background:#feb236;
+    border:solid 2px #FFF;
+    transform: skew(180deg,210deg);
+    position: absolute;
+    top: 43px;
+}
+.square2{
+    width:100px;
+    height:100px;
+    background:#6b5b95;
+    border:solid 2px #FFF;
+    transform: skew(180deg,150deg);
+    position: absolute;
+    left:102px;
+    top: 43px;
+}
+.square3{
+    width: 114px;
+    height:100px;
+    background:#d64161;
+    border:solid 2px #FFF;
+    transform: rotate(150deg) translate(-40px, -16px) skew(30deg, 0deg);
+    position: absolute;
+    left: 0px;
+    top: -32px;
+}  
